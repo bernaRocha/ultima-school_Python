@@ -1,2 +1,2 @@
-# ultima-school_Python
-Repositório de links importantes do curso.
+# Ultima.School_Python
+Repositório de exercícios e links importantes do curso.

@@ -1,0 +1,45 @@
+Read the Doc
+    https://python-guide-pt-br.readthedocs.io/pt_BR/latest/intro/learning.html
+
+Tutorial de Python
+    https://docs.python.org/pt-br/3/tutorial/index.html
+
+
+The integer numbers (e.g. 2, 4, 20) have type int, the ones with a fractional part (e.g. 5.0, 1.6) have type float.
+We will see more about numeric types later in the tutorial.
+
+Division (/) always returns a float. To do floor division and get an integer result 
+(discarding any fractional result) you can use the // operator; to calculate the remainder you can use %:
+
+>>> 'spam eggs'  # single quotes
+'spam eggs'
+>>> 'doesn\'t'  # use \' to escape the single quote...
+"doesn't"
+>>> "doesn't"  # ...or use double quotes instead
+"doesn't"
+>>> '"Yes," they said.'
+'"Yes," they said.'
+>>> "\"Yes,\" they said."
+'"Yes," they said.'
+>>> '"Isn\'t," they said.'
+'"Isn\'t," they said.'
+
+Listas:
+
+squares = [1, 4, 9, 16, 25]
+squares.append(216)
+[1, 4, 9, 16, 25, 216]
+
+Lista de listas:
+
+>>> a = ['a', 'b', 'c']
+>>> n = [1, 2, 3]
+>>> x = [a, n]
+>>> x
+[['a', 'b', 'c'], [1, 2, 3]]
+>>> x[0]
+['a', 'b', 'c']
+>>> x[0][1]
+'b'
+
+https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci

@@ -17,12 +17,12 @@ genero = input('Qual seu gênero? [M/m] [F/f] ').upper()
 altura = float(input('Qual sua altura? [x.xx] '))
 peso = float(input('Qual seu peso? '))
 
-peso_ideal_homem = (72.7 * altura) - 58
-peso_ideal_mulher = (62.1 * altura) - 44.7
+PESO_IDEAL_HOMEM = (72.7 * altura) - 58
+PESO_IDEAL_MULHER = (62.1 * altura) - 44.7
 
 
 if genero == 'M':
-    print(f'{nome} seu peso ideal é de {peso_ideal_homem:.2f} Kg')
+    print(f'{nome} seu peso ideal é de {PESO_IDEAL_HOMEM:.2f} Kg')
 else:
-    peso_ideal_mulher = (62.1 * altura) - 44.7
-    print(f'{nome} seu peso ideal é de {peso_ideal_mulher:.2f} Kg')
+    PESO_IDEAL_MULHER = (62.1 * altura) - 44.7
+    print(f'{nome} seu peso ideal é de {PESO_IDEAL_MULHER:.2f} Kg')

@@ -19,7 +19,7 @@ print([nome.upper() for nome in nomes])
 coordenadas = [
     (1, 5),
     (6, 9),
-    (2,0)
+    (2, 0)
 ]
 
 for x, y in coordenadas:

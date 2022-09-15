@@ -15,10 +15,10 @@ system('clear')
 
 horas_trabalhadas = 80
 
-valor_base = 1000.00
-valor_hora = 20.45
+VALOR_BASE = 1000.00
+VALOR_HORA = 20.45
 
-valor_inicial = valor_base + (horas_trabalhadas * valor_hora)
+valor_inicial = VALOR_BASE + (horas_trabalhadas * VALOR_HORA)
 taxa_extra = (15/ 100) * valor_inicial
 
 orcamento = valor_inicial + taxa_extra

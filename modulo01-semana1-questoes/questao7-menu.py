@@ -26,28 +26,28 @@ print('''Opções de pagamento:
 
 forma_de_pagamento = int(input('Qual a opção desejada: '))
 
-a_vista_dinheiro = preco_etiqueta - (0.15 * preco_etiqueta)
-a_vista_cartao = preco_etiqueta - (0.10 * preco_etiqueta)
-duas_vezes = preco_etiqueta
-acima_duas_vezes = preco_etiqueta + (0.10 * preco_etiqueta)
+A_VISTA_DINHEIRO = preco_etiqueta - (0.15 * preco_etiqueta)
+A_VISTA_CARTAO = preco_etiqueta - (0.10 * preco_etiqueta)
+DUAS_VEZES = preco_etiqueta
+ACIMA_DUAS_VEZES = preco_etiqueta + (0.10 * preco_etiqueta)
 
 
 if forma_de_pagamento == 1:
-    preco_final = a_vista_dinheiro 
+    preco_final = A_VISTA_DINHEIRO 
     print(f'A compra de valor R$ {preco_etiqueta:.2f} vai ficar em R$ {preco_final:.2f}')
 
 elif forma_de_pagamento == 2:
-    preco_final = a_vista_cartao
+    preco_final = A_VISTA_CARTAO
     print(f'A compra de valor R$ {preco_etiqueta:.2f} vai ficar em R$ {preco_final:.2f}')
 
 elif forma_de_pagamento == 3:
-    preco_final = duas_vezes
-    parcela = duas_vezes / 2
+    preco_final = DUAS_VEZES
+    parcela = DUAS_VEZES / 2
     print(f'A compra de valor R$ {preco_etiqueta:.2f} vai ficar em R$ {preco_final:.2f}' 
     'e cada parcela de valor R$ {parcela:.2f}')
 
 else:
-    preco_final = acima_duas_vezes
+    preco_final = ACIMA_DUAS_VEZES
     print(f'A compra de valor R$ {preco_etiqueta:.2f} vai ficar em R$ {preco_final:.2f}')
     
 print(f'Volte sempre!!!!')

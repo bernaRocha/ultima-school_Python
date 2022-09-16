@@ -6,10 +6,10 @@ from os import system
 system('clear')
 
 def verifica_par_impar(numero, divisor=2):
-    if numero // divisor == 0:
-        return f'O número {numero} não é par'
-    else:
+    if numero % divisor == 0:
         return f'O número {numero} é par'
+    else:
+        return f'O número {numero} não é par'
 
-print(verifica_par_impar(6))
+print(verifica_par_impar(8))
     

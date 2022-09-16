@@ -1,4 +1,5 @@
 from os import system
+from requests import *
 from funcoes import *
 system('clear')
 

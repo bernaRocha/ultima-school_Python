@@ -21,3 +21,4 @@ def fatorial(numero):
         return 1
     
     return numero * fatorial(numero - 1)
+    

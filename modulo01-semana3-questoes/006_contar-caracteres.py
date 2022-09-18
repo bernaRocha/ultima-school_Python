@@ -3,12 +3,11 @@
 '''
 from os import system
 system('clear')
-from typing import Counter
 
 def conta_caractere():
-    frase = input('Digite a frase a ser analisada: ')
+    frase = input('Digite a frase a ser analisada: ').strip().lower()
     letra = input('qual letra deseja contar suas repetições? ')
-    contador = frase.count(letra)
+    contador = frase.count(letra.lower())
     print(f'Na frase "{frase}" a letra {letra} aparece {contador} vezes.')
     
 conta_caractere()

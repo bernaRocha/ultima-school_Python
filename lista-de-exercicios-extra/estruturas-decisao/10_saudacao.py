@@ -13,7 +13,7 @@ turno = '''
 '''
 
 print(turno)
-pergunta = input('Em qual turno você estuda? ').strip().upper()
+pergunta = input('Em qual turno você estuda? ').strip().upper()[0]
 
 if 'M' in pergunta:
     print('Bom dia!')

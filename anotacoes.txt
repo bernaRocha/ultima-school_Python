@@ -43,3 +43,13 @@ Lista de listas:
 'b'
 
 https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci
+
+### 
+Mas então como saber quando um parâmetro é passado como valor ou como referência? A própria documentação do Python já nos dá uma dica:
+
+  Se temos um objeto mutável (list, dict, set, etc.), podemos usar algumas operações específicas para modificá-lo e todas as variáveis que referenciam esse objeto irão ver essa mudança. [exemplo de passagem por referência] 
+
+  Se temos um objeto imutável (str, int, tuple, etc.), todas as variáveis que o referenciam irão sempre ver o mesmo valor, mas operações que transformam esse valor em um novo valor irão sempre retornar um novo objeto. [exemplo de passagem por valor]
+
+  Fonte: https://docs.python.org/3/faq/programming.html#why-did-changing-list-y-also-change-list-x — conteúdo em inglês.
+

@@ -25,3 +25,4 @@ elif dia == '7':
     print(f'Hoje é {dias_semana[6]}')
 else:
     print('Valor inválido')
+    

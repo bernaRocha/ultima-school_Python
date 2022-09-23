@@ -45,11 +45,39 @@ Lista de listas:
 https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci
 
 ### 
-Mas então como saber quando um parâmetro é passado como valor ou como referência? A própria documentação do Python já nos dá uma dica:
+Mas então como saber quando um parâmetro é passado como valor ou como referência? 
+A própria documentação do Python já nos dá uma dica:
 
-  Se temos um objeto mutável (list, dict, set, etc.), podemos usar algumas operações específicas para modificá-lo e todas as variáveis que referenciam esse objeto irão ver essa mudança. [exemplo de passagem por referência] 
+  Se temos um objeto mutável (list, dict, set, etc.), podemos usar algumas operações 
+  específicas para modificá-lo e todas as variáveis que referenciam esse objeto irão ver 
+  essa mudança. [exemplo de passagem por referência] 
 
-  Se temos um objeto imutável (str, int, tuple, etc.), todas as variáveis que o referenciam irão sempre ver o mesmo valor, mas operações que transformam esse valor em um novo valor irão sempre retornar um novo objeto. [exemplo de passagem por valor]
+  Se temos um objeto imutável (str, int, tuple, etc.), todas as variáveis que o referenciam 
+  irão sempre ver o mesmo valor, mas operações que transformam esse valor em um novo valor 
+  irão sempre retornar um novo objeto. [exemplo de passagem por valor]
 
   Fonte: https://docs.python.org/3/faq/programming.html#why-did-changing-list-y-also-change-list-x — conteúdo em inglês.
 
+objetos são representações de entidades físicas ou lógicas do mundo real, 
+e entidades que possamos identificar e representar através de características e/ou ações.
+
+As classes, por sua vez, são as formas como esses objetos serão representados, 
+e cada objeto representa uma «instância» de uma classe, isto é, uma representação 
+real de uma classe. E são nas classes que definimos quais são os atributos 
+(características) e as ações que aquela classe tem.
+
+Instanciar = criar um objeto a partir de uma classe
+Atributos/Ações = Funções que o determinado objeto pode fazer
+
+# “...proporcionam uma forma de organizar dados e funcionalidades juntos. 
+Criar uma nova classe cria um novo ‘tipo’ de objeto, permitindo que novas ‘instâncias’ 
+desse tipo sejam produzidas. Cada instância da classe pode ter atributos anexados a ela, 
+para manter seu estado. Instâncias da classe também podem ter métodos 
+(definidos pela classe) para modificar seu estado.”
+
+As classes possuem métodos(atributos/ funções) 
+
+A palavra self. 
+Essa palavra reservada do Python é usada para representar o objeto (ou a instância) 
+da classe que estamos criando, e ele deve sempre ser o primeiro argumento de todos 
+os métodos criados dentro da nossa classe. 

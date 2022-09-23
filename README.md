@@ -3,4 +3,4 @@ Repositório de exercícios e links importantes do curso.</br>
 
 . [Site da escola](https://ultima.school/)</br>
 
-. [Lista de exercícios extra](https://wiki.python.org.br/ListaDeExercicios)
+. [Lista de exercícios da Python.org](https://wiki.python.org.br/ListaDeExercicios)

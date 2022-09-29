@@ -10,4 +10,5 @@ fim = int(input('Número do fim da lista: '))
 
 for i in range(comeco, fim + 1):
     print(f'{i} - ', end=' ')
+    
 print("FIM")

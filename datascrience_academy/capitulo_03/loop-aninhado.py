@@ -1,4 +1,3 @@
-import imp
 from os import system
 system('clear')
 

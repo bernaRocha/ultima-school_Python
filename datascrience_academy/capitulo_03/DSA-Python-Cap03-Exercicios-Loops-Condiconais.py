@@ -44,6 +44,71 @@ temperatura = 40
 while temperatura > 35:
    print(temperatura, end=' ')
    temperatura -= 1
+print()
+# Exercício 6 - Crie uma variável chamada contador = 0. Enquanto counter for menor que 100, imprima os valores na tela,
+# mas quando for encontrado o valor 23, interrompa a execução do programa
 
+contador = 0
+while contador < 100:
+    contador += 1
+    print(contador, end=' ')
+    if contador == 23:
+        break
+print()
 
+# Exercício 7 - Crie uma lista vazia e uma variável com valor 4. Enquanto o valor da variável for menor ou igual a 20, 
+# adicione à lista, apenas os valores pares e imprima a lista
 
+lista = []
+valor = 4
+while valor <= 20:
+    valor += 1
+    if valor % 2 ==0:
+        lista.append(valor)
+print(lista)
+
+print()
+
+# Exercício 8 - Transforme o resultado desta função range em uma lista: range(5, 45, 2)
+#nums = range(5, 45, 2)
+
+numeros = []
+for n in range(5, 45, 2):
+    numeros.append(n)
+
+print(numeros, end=' ')
+print()
+
+# Exercício 9 - Faça a correção dos erros no código abaixo e execute o programa. Dica: são 3 erros.
+#temperatura = float(input('Qual a temperatura? '))
+#if temperatura > 30
+#print('Vista roupas leves.')
+#else
+#    print('Busque seus casacos.')
+
+temperatura = float(input('Qual a temperatura? '))
+if temperatura > 30:
+    print('Vista roupas leves.')
+else:
+    print('Busque seus casacos.')
+
+print()
+
+# Exercício 10 - Faça um programa que conte quantas vezes a letra "r" aparece na frase abaixo. Use um placeholder na 
+# sua instrução de impressão
+
+# “É melhor, muito melhor, contentar-se com a realidade; se ela não é tão brilhante como os sonhos, tem pelo menos a 
+# vantagem de existir.” (Machado de Assis)
+
+frase = "É melhor, muito melhor, contentar-se com a realidade; se ela não é tão brilhante como os sonhos, tem pelo menos a vantagem de existir." 
+
+quantidade_r = frase.count('r')
+
+print(f"Na frase há uma quantidade de r's de: {quantidade_r}")
+print()
+##### ou 
+contador = 0
+for erre in frase:
+    if erre == 'r':
+        contador += 1
+print(f"Na frase há uma quantidade de r's de: {contador}")

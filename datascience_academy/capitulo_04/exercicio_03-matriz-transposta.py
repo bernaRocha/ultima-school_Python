@@ -1,4 +1,4 @@
-import numpy as np
+#import numpy as np
 from os import system   
 system('clear')
 
@@ -13,15 +13,19 @@ for i in matrix:
     print(i)
 
 matriz_t = [[k[0] for k in matrix], [k[1] for k in matrix]]
-
+print("\n\n")
 print("Matriz transposta: ")
 for i in matriz_t:
     print(i)
 
 ######## usando numpy ############
-matrix = [[1, 2],[3,4],[5,6],[7,8]]
+# matrix = [[1, 2],[3,4],[5,6],[7,8]]
 
-matrix_t = np.array(matrix).T
+# matrix_t = np.array(matrix).T
 
-print("Usando o numpy: ")
+# print("Usando o numpy: ")
+# print(matrix_t)
+
+*matrix_t, = zip(*matrix)
+print("\n\nCom *: ")
 print(matrix_t)

@@ -7,5 +7,11 @@ system('clear')
 
 from better_profanity import profanity
 texto = input('Entre com o texto: ')
+
 censurado = profanity.censor(texto)
 print(censurado)
+
+'''
+Entre com o texto: fuck you you fucking fucker
+**** you you **** ****
+'''

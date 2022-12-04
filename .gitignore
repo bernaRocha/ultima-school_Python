@@ -135,3 +135,4 @@ data/
 *.csv
 
 *extras/
+jupyter/

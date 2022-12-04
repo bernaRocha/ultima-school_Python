@@ -133,3 +133,5 @@ dados/
 data/
 
 *.csv
+
+*extras/
